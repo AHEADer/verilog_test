@@ -1,0 +1,84 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 12064
+
+Current time: 	6/21/16 4:18:57 PM BRT
+Time zone: 	Brasilia Time (America/Bahia)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	D:/Xilinx/Vivado/2015.2/tps/win64/jre
+
+User name: 	Lovelive
+User directory: D:/verilog/lab5/lab5_2
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/Lovelive/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/Lovelive/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	199 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 491 MB
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: D:\verilog\lab5\lab5_2\lab5_2.xpr. Version: Vivado v2015.2 
+// cp:P (cl:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 28 MB (+27225kb) [00:00:05]
+// [Engine Memory]: 402 MB (+269834kb) [00:00:05]
+// Tcl Message: open_project D:/verilog/lab5/lab5_2/lab5_2.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 35 MB (+5858kb) [00:00:06]
+// [Engine Memory]: 442 MB (+20744kb) [00:00:06]
+// [GUI Memory]: 44 MB (+7367kb) [00:00:06]
+// [Engine Memory]: 490 MB (+27901kb) [00:00:07]
+// [GUI Memory]: 47 MB (+172kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 495 MB. GUI used memory: 31 MB. Current time: 6/21/16 4:18:58 PM BRT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: lab5_2; location: D:/verilog/lab5/lab5_2; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:05 . Memory (MB): peak = 804.004 ; gain = 212.965 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// [GUI Memory]: 51 MB (+2664kb) [00:00:11]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, moore_3processes (main.v)]", 1, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, moore_3processes (main.v)]", 1, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, moore_3processes (main.v)]", 1, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// [GUI Memory]: 54 MB (+148kb) [00:00:21]
+// [GUI Memory]: 57 MB (+493kb) [00:03:53]
+// [GUI Memory]: 61 MB (+556kb) [00:16:43]
+// HMemoryUtils.trashcanNow. Engine heap size: 512 MB. GUI used memory: 32 MB. Current time: 6/21/16 4:48:58 PM BRT
+// [GUI Memory]: 64 MB (+33kb) [00:37:12]
+// [GUI Memory]: 68 MB (+496kb) [00:38:02]
+// HMemoryUtils.trashcanNow. Engine heap size: 512 MB. GUI used memory: 31 MB. Current time: 6/21/16 6:02:33 PM BRT
