@@ -1,0 +1,13 @@
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source D:/verilog/lab3/lab5_2_3/lab5_2_3.hw/webtalk/labtool_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 57.691 ; gain = 0.004
+
+    while executing
+"webtalk_transmit -clientid 3121695528 -regid "" -xml D:/verilog/lab3/lab5_2_3/lab5_2_3.hw/webtalk/usage_statistics_ext_labtool.xml -html D:/verilog/la..."
+    (file "D:/verilog/lab3/lab5_2_3/lab5_2_3.hw/webtalk/labtool_webtalk.tcl" line 26)
+INFO: [Common 17-206] Exiting Webtalk at Fri Jun 10 07:53:19 2016...

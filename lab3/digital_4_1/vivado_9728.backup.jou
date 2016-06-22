@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jun 15 07:17:58 2016
+# Process ID: 8844
+# Log file: D:/verilog/digital_4_1/vivado.log
+# Journal file: D:/verilog/digital_4_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/verilog/digital_4_1/digital_4_1.xpr
+launch_simulation
+source main_tb.tcl
+synth_design -rtl -name rtl_1
