@@ -1,0 +1,76 @@
+
+*** Running vivado
+    with args -log main.vds -m64 -mode batch -messageDb vivado.pb -notrace -source main.tcl
+
+WARNING: Default location for XILINX_VIVADO_HLS not found: 
+
+****** Vivado v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source main.tcl -notrace
+Command: synth_design -top main -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-1223] The version limit for your license is '2016.05' and will expire in -13 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 263.570 ; gain = 88.539
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'main' [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:60]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'register' [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:14]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'register' (1#1) [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:14]
+INFO: [Synth 8-638] synthesizing module 'adder' [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:31]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'adder' (2#1) [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:31]
+INFO: [Synth 8-638] synthesizing module 'comparer' [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:40]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'comparer' (3#1) [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:40]
+INFO: [Synth 8-638] synthesizing module 'multiplexer' [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:3]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'multiplexer' (4#1) [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:3]
+WARNING: [Synth 8-387] label required on module instance [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:78]
+INFO: [Synth 8-638] synthesizing module 'ROM_width' [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:49]
+	Parameter WIDTH bound to: 32 - type: integer 
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Unable to determine number of words or word size in RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+WARNING: [Synth 8-3848] Net ROM in module/entity ROM_width does not have driver. [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:55]
+INFO: [Synth 8-256] done synthesizing module 'ROM_width' (5#1) [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:49]
+INFO: [Synth 8-256] done synthesizing module 'main' (6#1) [D:/verilog/lab4/lab4_2/lab4_2.srcs/sources_1/new/main.v:60]
+TclStackFree: incorrect freePtr. Call out of sequence?
